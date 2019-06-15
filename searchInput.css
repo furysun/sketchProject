@@ -1,0 +1,27 @@
+.search-form{
+    position: relative;
+}
+
+.search-input{
+    position: absolute;
+}
+i.fas{
+    position: absolute;
+    top: 60px;
+    padding-left: 430px;
+}
+.search-input{
+    margin-top: 42px;
+    width: 460px;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #eaf0f7;
+}
+
+::placeholder {
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 1.13;
+    color: #97a4ba;
+}

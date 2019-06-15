@@ -6,7 +6,6 @@
   "scripts": {
     "build": "webpack --mode=development",
     "start": "webpack-dev-server"
-
   },
   "author": "fury_sun",
   "license": "ISC",
@@ -18,5 +17,6 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1"
-  }
+  },
+  "dependencies": {}
 }
