@@ -58,6 +58,12 @@ li {
     margin-top: 18px;
 }
 
+ .logo2 {
+    display: flex;
+     margin-right: 156px;
+     margin-top: 85px;
+}
+
 .menu-wrapper {
     display: block;
     margin-right: 195px;
@@ -183,7 +189,6 @@ span {
     display: flex;
     margin-top: 112px;
     justify-content: center;
-
 }
 
 .card {
@@ -195,13 +200,14 @@ span {
     border-radius: 4px;
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.15);
     border: solid 1px #f6f9fc;
-    background-color:white ;
+    background-color: white;
 }
 
 .update {
     margin: auto;
     width: 616px;
-    height: 310px;
+    /*height: 310px;*/
+    height: 74px;
     padding-top: 206px;
 }
 
@@ -234,8 +240,204 @@ span {
     margin: 0px;
     width: 49px;
     height: 22px;
-    color: white;
+    border: none;
     border-radius: 13px;
+    color: white;
     background-color: #51c81c;
+
 }
 
+
+.full-inform {
+    display: flex;
+    width: 1440px;
+    height: 391px;
+    /*margin-top: 112px;*/
+    justify-content: center;
+    background-image: linear-gradient(285deg, #0e64c6, #3794fc);
+}
+
+.popular-art {
+    position: relative;
+    height: 346px;
+    width: 360px;
+    /*background-color: pink;*/
+    margin-right: 36px;
+    margin-left: 36px;
+}
+
+.form-our-forms {
+    height: 346px;
+    /*background-color: pink;*/
+    width: 360px;
+    position: relative;
+    margin-right: 36px;
+    margin-left: 36px;
+
+}
+
+.latest-tutorials {
+    height: 346px;
+    width: 360px;
+    /*background-color: pink;*/
+    position: relative;
+    margin-right: 36px;
+    margin-left: 36px;
+}
+
+.head-article {
+    padding-top: 48px;
+    padding-bottom: 32px;
+    color: red;
+    color: white;
+}
+
+.articles {
+    border-bottom: 1px solid gray;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    font-size: 14px;
+}
+
+.we-have-text em {
+    color: #3794fc;
+}
+
+.sign-up {
+    width: 1440px;
+    height: 340px;
+    background-color: #f6f9fc;
+}
+
+.keep-up {
+    height: 36px;
+    font-size: 28px;
+    padding-top: 66px;
+    text-align: center;
+    font-weight: bold;
+    color: #283040;
+}
+
+.join-our {
+    text-align: center;
+    padding-top: 16px;
+
+}
+
+.design {
+    color: #3794fc;
+}
+
+.coding {
+    color: #a037fc;
+}
+
+.marketing {
+    color: #ec37fc;
+}
+
+
+.enter-you-email {
+    margin: 36px auto auto;
+    width: 318px;
+    /*height: 48px;*/
+    padding: 14px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #97a4ba;
+    text-indent: 24px;
+}
+.sign-up-button{
+    width: 120px;
+    height: 48px;
+    border: none;
+
+    border-radius: 24px;
+    background-color: #3794fc;
+    color: white;
+}
+.sign-up-button-wrapper{
+    margin-left: 798px;
+    margin-top: -47px;
+}
+
+.enter-you-email{
+    position: relative;
+}
+.sign-up-button-wrapper{
+    position: absolute;
+}
+
+.rectangle-wrapper{
+    justify-content: center;
+    display: flex;
+    width: 1440px;
+    height: 343px;
+    /*background-color: pink;*/
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    width: 989px;
+    height: 280px;
+    /*background-color: blanchedalmond;*/
+}
+.company{
+    margin-right: 208px;
+}
+.product{
+    margin-right: 226px;
+}
+
+.header-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #283040;
+    padding-bottom: 24px;
+}
+
+.company-inform{
+    width: 65px;
+    height: 20px;
+    font-size: 16px;
+    color: #67758d;
+}
+
+.articles2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /*font-size: 14px;*/
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin-left: 150px;
+    height: 64px;
+    border-top: 1px solid #eaf0f7;
+
+}
+
+.footer-webble{
+    margin-top: 16px;
+    color: #67758d;
+
+}
+.footer-term{
+    margin-top: 16px;
+    color: #67758d;
+}
+.icon-i-w{
+    width: 22px;
+    height: 22px;
+    margin-top: 35px;
+}
+
+.icon-i-w i{
+    margin-left: -90px;
+}
