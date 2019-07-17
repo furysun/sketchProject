@@ -322,7 +322,6 @@ span {
 .join-our {
     text-align: center;
     padding-top: 16px;
-
 }
 
 .design {
@@ -717,7 +716,7 @@ span {
     .contetnt {
         width: 375px;
         padding-left: 0px;
-        height: 1100px;
+        height: 2180px;
     }
 
     .inform-basics {
@@ -727,8 +726,9 @@ span {
         box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.06);
         border: solid 1px #f6f9fc;
         background-color: #ffffff;
-        margin-bottom: 5px;
-        margin-left: 5px;
+        margin: auto auto 5px;
+        /*margin-left: 5px;*/
+
     }
 
     .basics {
@@ -749,4 +749,77 @@ span {
         margin-left: 28px;
         height: 39px;
     }
+
+    .sign-up {
+        width: 375px;
+        height: 340px;
+        background-color: #f6f9fc;
+    }
+
+    .join-our {
+        text-align: center;
+        padding-top: 14px;
+        font-size: 15px;
+    }
+
+    .sign-up-button-wrapper {
+        position: relative;
+        margin-left: 240px;
+        margin-top: -47px;
+    }
+
+
+    .rectangle-wrapper {
+        justify-content: center;
+        display: flex;
+        width: 375px;
+        height: 650px;
+        /*background-color: pink;*/
+    }
+    .rectangle{
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+    }
+
+
+    .company {
+        margin-right: 208px;
+        height: 300px;
+    }
+    .company-inform {
+        width: 65px;
+        height: 150px;
+        font-size: 16px;
+        color: #67758d;
+    }
+
+    .logo2 {
+        display: flex;
+        margin-right: 156px;
+        margin-top: 285px;
+        margin-bottom: 20px;
+    }
+
+    .icon-i-w {
+        width: 22px;
+        height: 22px;
+        margin-top: 35px;
+        margin-left: -50px;
+
+    }
+
+
+    .icon-i-w i {
+        margin-left: 0px;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    margin-left: 10px;
+    height: 64px;
+    border-top: 1px solid #eaf0f7;
 }
