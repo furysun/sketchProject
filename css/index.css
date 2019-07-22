@@ -425,7 +425,6 @@ span {
     margin-left: 150px;
     height: 64px;
     border-top: 1px solid #eaf0f7;
-
 }
 
 .footer-webble {
@@ -813,13 +812,14 @@ span {
     .icon-i-w i {
         margin-left: 0px;
     }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        margin-left: 10px;
+        height: 64px;
+        border-top: 1px solid #eaf0f7;
+    }
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    width: 375px;
-    margin-left: 10px;
-    height: 64px;
-    border-top: 1px solid #eaf0f7;
-}
