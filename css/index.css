@@ -6,13 +6,13 @@ body {
 }
 
 ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
     margin-top: 26px;
 }
 
 li {
-    list-style-type: none;
     display: inline;
+    list-style-type: none;
     width: 44px;
     height: 20px;
     padding-right: 19px;
@@ -73,7 +73,7 @@ li {
     display: flex;
 }
 
-.button-sign-in {
+.sign-in-button {
     width: 120px;
     height: 38px;
     border-radius: 3px;
@@ -134,7 +134,7 @@ li {
     position: absolute;
 }
 
-.ii {
+.search-icon {
     position: absolute;
     top: 60px;
     padding-left: 430px;
@@ -158,18 +158,18 @@ span {
     color: #3794fc;
 }
 
-.reso-icon {
+.resources-icon {
     position: absolute;
     text-align: center;
 }
 
-.reso-icon i {
+.resources-icon i {
     padding-left: 105px;
     padding-top: 36px;
     font-size: 83px;
 }
 
-.reso-head {
+.resources-head {
     padding-top: 144px;
     padding-left: 98px;
     font-weight: bold;
@@ -259,13 +259,12 @@ span {
     margin-left: 36px;
 }
 
-.form-our-forms {
+.from-our-forums {
     position: relative;
     height: 346px;
     width: 360px;
     margin-right: 36px;
     margin-left: 36px;
-
 }
 
 .latest-tutorials {
@@ -323,6 +322,7 @@ span {
 }
 
 .enter-you-email {
+    position: relative;
     width: 318px;
     margin: 36px auto auto;
     padding: 14px;
@@ -345,10 +345,6 @@ span {
 .sign-up-button-wrapper {
     margin-left: 798px;
     margin-top: -47px;
-}
-
-.enter-you-email {
-    position: relative;
 }
 
 .sign-up-button-wrapper {
@@ -392,7 +388,7 @@ span {
     color: #67758d;
 }
 
-.articles2 {
+.company-info-list-item {
     width: 150px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -417,13 +413,13 @@ span {
     color: #67758d;
 }
 
-.icon-i-w {
+.social-media-icon {
     width: 22px;
     height: 22px;
     margin-top: 35px;
 }
 
-.icon-i-w i {
+.social-media-icon i {
     margin-left: -90px;
 }
 
@@ -458,7 +454,7 @@ span {
     background-color: #ffffff;
 }
 
-.get-start {
+.card-inform-list {
     display: flex;
 }
 
@@ -496,11 +492,11 @@ span {
     color: #97a4ba;
 }
 
-.design {
+.text-color {
     color: #3794fc;
 }
 
-.design1 {
+.design {
     display: flex;
     width: 1140px;
     height: 39px;
@@ -508,14 +504,14 @@ span {
     margin-bottom: 30px;
 }
 
-.design2 {
+.header-text-design {
     width: 1140px;
     height: 39px;
     font-size: 20px;
     color: #67758d;
 }
 
-.brows-all {
+.browse-all {
     height: 20px;
     width: 87px;
     margin-top: 10px;
@@ -549,7 +545,7 @@ span {
         margin-right: 19px;
     }
 
-    .button-sign-in {
+    .sign-in-button {
         width: 65px;
         height: 38px;
         margin-top: 18px;
@@ -572,7 +568,6 @@ span {
         padding-top: 34px;
     }
 
-
     .inform {
         display: flex;
         width: 360px;
@@ -594,7 +589,7 @@ span {
         background-color: #eaf0f7;
     }
 
-    .ii {
+    .search-icon {
         position: absolute;
         padding-left: 330px;
         top: 60px;
@@ -637,7 +632,7 @@ span {
         background-image: linear-gradient(285deg, #0e64c6, #3794fc);
     }
 
-    .form-our-forms {
+    .from-our-forums {
         position: relative;
         height: 346px;
         width: 360px;
@@ -670,7 +665,7 @@ span {
         color: white;
     }
 
-    .get-start {
+    .card-inform-list {
         display: flex;
         flex-direction: column;
     }
@@ -701,7 +696,7 @@ span {
         color: #67758d;
     }
 
-    .design2 {
+    .header-text-design {
         width: 140px;
         height: 39px;
         margin-left: 28px;
@@ -761,14 +756,14 @@ span {
         margin-bottom: 20px;
     }
 
-    .icon-i-w {
+    .social-media-icon {
         width: 22px;
         height: 22px;
         margin-top: 35px;
         margin-left: -50px;
     }
 
-    .icon-i-w i {
+    .social-media-icon i {
         margin-left: 0px;
     }
 
