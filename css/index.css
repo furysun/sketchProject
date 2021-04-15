@@ -21,10 +21,16 @@ li {
     color: #424b5f;
 }
 
+li:hover{
+    color: #3794fc;
+}
+
 #doc {
     width: 112px;
     height: 20px;
     font-size: 16px;
+}
+#doc:hover{
     color: #3794fc;
 }
 
@@ -142,25 +148,20 @@ li {
 
 .search-panel {
     width: 500px;
-    padding-top: 144px;
+    padding-top: 100px;
     margin: auto;
 }
 
 .search-info {
     height: 18px;
     padding-left: 55px;
-    padding-top: 110px;
+    padding-top: 50px;
     font-size: 14px;
     color: #67758d;
 }
 
 span {
     color: #3794fc;
-}
-
-.resources-icon {
-    position: absolute;
-    text-align: center;
 }
 
 .resources-icon i {
@@ -170,7 +171,7 @@ span {
 }
 
 .resources-head {
-    padding-top: 144px;
+    padding-top: 70px;
     padding-left: 98px;
     font-weight: bold;
 }
@@ -181,6 +182,8 @@ span {
     line-height: 1.5;
     text-align: center;
     color: #67758d;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .cards {
@@ -205,7 +208,8 @@ span {
     width: 616px;
     height: 74px;
     margin: auto;
-    padding-top: 206px;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .We-have-updated-our {
@@ -284,7 +288,7 @@ span {
 .articles {
     padding-top: 14px;
     padding-bottom: 14px;
-    border-bottom: 1px solid gray;
+    /*border-bottom: 1px solid gray;*/
     font-size: 13px;
     color: white;
 }
@@ -560,12 +564,6 @@ span {
         width: 375px;
         height: 356px;
         background: #f6f9fc;
-    }
-
-    .search-panel {
-        width: 375px;
-        margin: auto;
-        padding-top: 34px;
     }
 
     .inform {
